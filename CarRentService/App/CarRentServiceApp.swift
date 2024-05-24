@@ -11,7 +11,7 @@ import SwiftUI
 struct CarRentServiceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ManitabbarView()
         }
     }
 }
