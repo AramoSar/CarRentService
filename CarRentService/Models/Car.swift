@@ -23,6 +23,6 @@ struct Car: Identifiable, Hashable, Codable {
     var gasType: String
     var hostName: String
     var hostImageName: String
-    var hostJoimDate: String
+    var hostJoinDate: String
     var isFavorite: Bool
 }
