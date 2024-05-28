@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		F72DE1972C00617F00963464 /* TopCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72DE1962C00617F00963464 /* TopCarView.swift */; };
 		F72DE19A2C00666000963464 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72DE1992C00666000963464 /* FavoriteView.swift */; };
+		F7BBA96A2C05A6B200FE499E /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA9692C05A6B200FE499E /* InboxView.swift */; };
+		F7BBA96C2C05A70600FE499E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA96B2C05A70600FE499E /* NotificationsView.swift */; };
 		F7BDE6E22C0330A6001638C8 /* TripDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDE6E12C0330A6001638C8 /* TripDateView.swift */; };
 		F7BDE6E42C033130001638C8 /* MyInsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDE6E32C033130001638C8 /* MyInsuranceView.swift */; };
+		F7BDE6E72C033399001638C8 /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDE6E62C033399001638C8 /* TripView.swift */; };
+		F7BDE6E92C033416001638C8 /* EmptyElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDE6E82C033416001638C8 /* EmptyElementView.swift */; };
 		F7CA6BBF2BFF236600DFE870 /* CarRentServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA6BBE2BFF236600DFE870 /* CarRentServiceApp.swift */; };
 		F7CA6BC32BFF236700DFE870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CA6BC22BFF236700DFE870 /* Assets.xcassets */; };
 		F7CA6BC62BFF236700DFE870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CA6BC52BFF236700DFE870 /* Preview Assets.xcassets */; };
@@ -50,8 +54,12 @@
 /* Begin PBXFileReference section */
 		F72DE1962C00617F00963464 /* TopCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCarView.swift; sourceTree = "<group>"; };
 		F72DE1992C00666000963464 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		F7BBA9692C05A6B200FE499E /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		F7BBA96B2C05A70600FE499E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		F7BDE6E12C0330A6001638C8 /* TripDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateView.swift; sourceTree = "<group>"; };
 		F7BDE6E32C033130001638C8 /* MyInsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsuranceView.swift; sourceTree = "<group>"; };
+		F7BDE6E62C033399001638C8 /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		F7BDE6E82C033416001638C8 /* EmptyElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyElementView.swift; sourceTree = "<group>"; };
 		F7CA6BBB2BFF236600DFE870 /* CarRentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CA6BBE2BFF236600DFE870 /* CarRentServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentServiceApp.swift; sourceTree = "<group>"; };
 		F7CA6BC22BFF236700DFE870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +112,23 @@
 			isa = PBXGroup;
 			children = (
 				F72DE1992C00666000963464 /* FavoriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7BBA9682C05A6A100FE499E /* InboxView */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBA9692C05A6B200FE499E /* InboxView.swift */,
+				F7BBA96B2C05A70600FE499E /* NotificationsView.swift */,
+			);
+			path = InboxView;
+			sourceTree = "<group>";
+		};
+		F7BDE6E52C03338A001638C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7BDE6E62C033399001638C8 /* TripView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +248,7 @@
 		F7CA6BEE2BFF23CA00DFE870 /* Inbox */ = {
 			isa = PBXGroup;
 			children = (
+				F7BBA9682C05A6A100FE499E /* InboxView */,
 			);
 			path = Inbox;
 			sourceTree = "<group>";
@@ -256,6 +282,7 @@
 		F7CA6BF22BFF240500DFE870 /* Trips */ = {
 			isa = PBXGroup;
 			children = (
+				F7BDE6E52C03338A001638C8 /* Views */,
 			);
 			path = Trips;
 			sourceTree = "<group>";
@@ -295,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				F7DE5A6F2BFFD2A3007E3EC9 /* CustomCarView.swift */,
+				F7BDE6E82C033416001638C8 /* EmptyElementView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -434,11 +462,15 @@
 				F7CA6BBF2BFF236600DFE870 /* CarRentServiceApp.swift in Sources */,
 				F7CA6BFF2BFF425400DFE870 /* Brand.swift in Sources */,
 				F7F131712C00C46600BF6D21 /* ImageViewPager.swift in Sources */,
+				F7BDE6E92C033416001638C8 /* EmptyElementView.swift in Sources */,
+				F7BBA96A2C05A6B200FE499E /* InboxView.swift in Sources */,
 				F72DE19A2C00666000963464 /* FavoriteView.swift in Sources */,
 				F7DE5A6B2BFFC274007E3EC9 /* PopularBrandsView.swift in Sources */,
 				F7CA6BFB2BFF3D5B00DFE870 /* NavigationStackModifier.swift in Sources */,
 				F7F1316F2C00BA2E00BF6D21 /* DetailView.swift in Sources */,
+				F7BBA96C2C05A70600FE499E /* NotificationsView.swift in Sources */,
 				F7BDE6E42C033130001638C8 /* MyInsuranceView.swift in Sources */,
+				F7BDE6E72C033399001638C8 /* TripView.swift in Sources */,
 				F7CA6BFD2BFF417B00DFE870 /* CustomSearchBar.swift in Sources */,
 				F7DE5A6D2BFFCF32007E3EC9 /* Car.swift in Sources */,
 				F7CA6BF82BFF2C7700DFE870 /* ExploreView.swift in Sources */,

@@ -38,7 +38,7 @@ struct ManitabbarView: View {
                     selectedTab = 1
                 }
             
-            Text("Trips")
+            TripsView()
                 .tabItem {
                     VStack {
                         Image(systemName:"road.lanes")
@@ -51,7 +51,7 @@ struct ManitabbarView: View {
                     selectedTab = 2
                 }
             
-            Text("Inbox")
+            InboxView()
                 .tabItem {
                     VStack {
                         Image(systemName:"bubble")
