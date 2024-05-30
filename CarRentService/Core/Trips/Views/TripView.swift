@@ -12,7 +12,7 @@ enum TabSelection {
     case history
 }
 
-struct TripsView: View {
+struct TripView: View {
     var barWidth: CGFloat = (UIScreen.main.bounds.width / 2) - 20
     @State var tabSelection: TabSelection = .booked
     var body: some View {
@@ -75,6 +75,3 @@ struct TripsView: View {
     }
 }
 
-#Preview {
-    TripsView()
-}

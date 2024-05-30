@@ -38,7 +38,7 @@ struct ManitabbarView: View {
                     selectedTab = 1
                 }
             
-            TripsView()
+            TripView()
                 .tabItem {
                     VStack {
                         Image(systemName:"road.lanes")
@@ -64,7 +64,7 @@ struct ManitabbarView: View {
                     selectedTab = 3
                 }
             
-            Text("More")
+            MoreView()
                 .tabItem {
                     VStack {
                         Image(systemName:"ellipsis")
